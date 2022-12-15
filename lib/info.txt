@@ -1,0 +1,1 @@
+chip RFID giúp nhận dạng sản phẩm trong chuỗi cung ứng

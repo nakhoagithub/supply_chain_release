@@ -1,0 +1,340 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "createUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllTransfer",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "idTransfer",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "idHistory",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "idProduct",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dictIngredient",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCreated",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "transferDate",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Products.ProductTransfer[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "owner",
+				"type": "address"
+			}
+		],
+		"name": "getAllTransferOfUser",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "idTransfer",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "idHistory",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "idProduct",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dictIngredient",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCreated",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "transferDate",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Products.ProductTransfer[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllUser",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "id",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCreated",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "createdAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Users.User[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "idHistory",
+				"type": "string"
+			}
+		],
+		"name": "getTransferHistory",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "idTransfer",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "idHistory",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "idProduct",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dictIngredient",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCreated",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "transferDate",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Products.ProductTransfer[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_userId",
+				"type": "address"
+			}
+		],
+		"name": "getUserByAddress",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "id",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCreated",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "createdAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Users.User",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "idTransfer",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "idHistory",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "idProduct",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "dictIngredient",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "buyer",
+				"type": "address"
+			}
+		],
+		"name": "transferProduct",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

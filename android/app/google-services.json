@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "563438732925",
+    "firebase_url": "https://supply-chain-nakhoa-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "supply-chain-nakhoa",
+    "storage_bucket": "supply-chain-nakhoa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563438732925:android:62d998c4918b6121cfd314",
+        "android_client_info": {
+          "package_name": "com.nakhoa.supply_chain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563438732925-btlbrsbdcsbjo2nkl3slfiqc4bvlrb8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nakhoa.supply_chain",
+            "certificate_hash": "31da74067025532d2850e0cc3d2857772a840364"
+          }
+        },
+        {
+          "client_id": "563438732925-f1b7uc88qqqltjtuvp9dp3uajsuft3dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRSFSmSNuovA7rpbbyPcKgiNRAtq4XS9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563438732925-f1b7uc88qqqltjtuvp9dp3uajsuft3dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
