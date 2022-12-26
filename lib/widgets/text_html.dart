@@ -25,6 +25,7 @@ class TextHTML extends StatelessWidget {
   Widget build(BuildContext context) {
     return StyledText(
       text: text,
+      textHeightBehavior: const TextHeightBehavior(),
       tags: {
         'link': StyledTextActionTag(
           (text, attributes) {
