@@ -1,7 +1,7 @@
 Supply Chain (Luận văn tốt nghiệp - Nguyễn Anh Khoa)
 ============
 
-![Dribble Supply Chain](https://github.com/nakhoagithub/supply_chain/blob/main/assets/images/suppychain.png?raw=true)
+![Dribble Supply Chain](https://github.com/nakhoagithub/supply_chain_release/blob/main/assets/images/suppychain.png?raw=true)
 
 ### Ngôn ngữ lập trình
 - [Dart](https://dart.dev/)
@@ -38,16 +38,16 @@ Supply Chain (Luận văn tốt nghiệp - Nguyễn Anh Khoa)
 ### Một số hình ảnh về giao diện
 
 - Giao diện Đăng nhập
-![Đăng nhập](https://github.com/nakhoagithub/supply_chain/blob/main/docs/images/Screenshot_20221023-142514.png?raw=true)
+![Đăng nhập](https://github.com/nakhoagithub/supply_chain_release/blob/main/docs/images/Screenshot_20221023-142514.png?raw=true)
 
 - Giao diện Quét mã vạch
-![Mã vạch](https://github.com/nakhoagithub/supply_chain/blob/main/docs/images/Screenshot_20221023-142510.png?raw=true)
+![Mã vạch](https://github.com/nakhoagithub/supply_chain_release/blob/main/docs/images/Screenshot_20221023-142510.png?raw=true)
 
 - Giao diện Trang chủ
-![Trang chủ](https://github.com/nakhoagithub/supply_chain/blob/main/docs/images/Screenshot_20221023-142438.png?raw=true)
+![Trang chủ](https://github.com/nakhoagithub/supply_chain_release/blob/main/docs/images/Screenshot_20221023-142438.png?raw=true)
 
 - Giao diện Thông tin
-![Thông Tin](https://github.com/nakhoagithub/supply_chain/blob/main/docs/images/Screenshot_20221023-142442.png?raw=true)
+![Thông Tin](https://github.com/nakhoagithub/supply_chain_release/blob/main/docs/images/Screenshot_20221023-142442.png?raw=true)
 
 - Giao diện Truy xuất nguồn gốc sản phẩm
-![Truy xuất nguồn gốc](https://github.com/nakhoagithub/supply_chain/blob/main/docs/images/Screenshot_20221023-142429.png?raw=true)
+![Truy xuất nguồn gốc](https://github.com/nakhoagithub/supply_chain_release/blob/main/docs/images/Screenshot_20221023-142429.png?raw=true)
